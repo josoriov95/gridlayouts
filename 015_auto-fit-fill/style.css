@@ -1,0 +1,25 @@
+.item{
+    border: 4px solid mediumspringgreen;
+    font-size: 1.4rem;
+}
+.grid{
+    border: 4px solid #a99edc;
+    background-color: #c5bcee;
+    display: grid;
+}
+
+.contenedor1{
+    /* Cuando se usa auto-fit o auto-fill se debe combinar con minmax */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    /* auto-fit
+        Rellena el grid, hace que cada column se ajuste al espacio disponible
+    */
+}
+
+.contenedor2{
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    /* auto-fill
+        Rellena generando nuevas columns sin contenido
+        En vez de hacer que las columns rellenen el espacio sobrante
+    */
+}

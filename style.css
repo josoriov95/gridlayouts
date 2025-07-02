@@ -1,0 +1,13 @@
+.contenedor{
+    border: 5px solid turquoise;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 50px;
+    gap: 8px;
+}
+.item{
+    border: 4px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

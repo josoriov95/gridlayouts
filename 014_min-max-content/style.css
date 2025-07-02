@@ -1,0 +1,21 @@
+.item{
+    border: 4px solid mediumspringgreen;
+    font-size: 1.4rem;
+}
+.grid{
+    border: 4px solid #a99edc;
+    background-color: #c5bcee;
+    display: grid;
+}
+
+.contenedor1{
+    grid-template-columns: max-content 1fr min-content 1fr;
+    /* max-content:  
+        El elemento toma el tamaño que necesita para verse completo
+        sin ajustar texto
+    */
+    /* min-content:  
+        El elemento toma el tamaño mínimo que necesita para verse completo
+        aunque signifique ajustar texto
+    */
+}

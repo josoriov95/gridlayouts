@@ -1,0 +1,19 @@
+.contenedor{
+    border: 4px solid #a99edc;
+    background-color: #c5bcee;
+    display: grid;
+    /* minmax(ancho mínimo, ancho máximo) */
+    grid-template-columns: minmax(30px,300px) 150px minmax(60px, 250px);
+    /* repeat(cantidad de repeticiones, tamaño) */
+    grid-template-rows: repeat(3, auto);
+    /* 
+        auto ajusta según el contenido y el espacio disponible
+        El contenido toma el espacio disponible
+        Si no hay espacio disponible se va reduciendo    
+    */
+}
+
+.item{
+    border: 4px solid mediumspringgreen;
+    font-size: 1.4rem;
+}

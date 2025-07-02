@@ -1,0 +1,14 @@
+.contenedor{
+    border: 5px solid turquoise;
+    /* Aplica grid al contenedor */
+    display: grid;
+    /* Define la cantidad y tamaño de las columnas (a lo ancho)*/
+    grid-template-columns: 50px 100px 200px;
+    /* Define la cantidad y tamaño de las filas (a la altura)*/
+    grid-template-rows: 100px 200px;
+    /* Aplica una separación entre celdas */
+    gap: 8px;
+}
+.item{
+    border: 4px solid orange;
+}

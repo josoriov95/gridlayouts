@@ -1,0 +1,19 @@
+.contenedor{
+    border: 5px solid turquoise;
+    display: grid;
+    /*gap: 8px*/
+    
+    /* Se crean 2 filas */
+    grid-template-rows: 100px 200px;
+    /* Auto genera columnas (en vez de filas) */
+    grid-auto-flow: column;
+    /* Cada columna que se crea tiene 100px */
+    grid-auto-columns: 100px;
+    /* Agrega espacio entre filas*/
+    row-gap: 8px;
+    /* Agrega espacio entre columnas*/
+    column-gap: 20px;
+}
+.item{
+    border: 4px solid orange;
+}

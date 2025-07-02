@@ -1,0 +1,16 @@
+.contenedor{
+    border: 5px solid turquoise;
+    display: grid;
+    gap: 8px;
+    /* Por cada fila solo 3 columnas (celdas)*/
+    grid-template-columns: 50px 100px 200px;
+    /* 
+        Por defecto las filas se generan en automático cuando 
+        no caben más elementos en columnas por límite (template) o tamaños
+    */
+    /* Asigna un tamaño de 100px a las filas*/
+    grid-auto-rows: 100px;
+}
+.item{
+    border: 4px solid orange;
+}

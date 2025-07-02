@@ -1,0 +1,26 @@
+.item{
+    border: 4px solid mediumspringgreen;
+    font-size: 1.4rem;
+}
+.grid{
+    border: 4px solid #a99edc;
+    background-color: #c5bcee;
+    display: grid;
+}
+
+.contenedor1{
+    /* fr es una media en fracciones */
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    /* 
+        En total hay 5 fracciones del ancho de la ventana 
+        Cada fracción equivale al 20% del ancho de la ventana (100%/5 = 20%)
+        La primera columna toma 1 fr = 20%
+        La segunda columna toma 1 fr = 20%
+        La tercera columna toma 2 fr = 40% 
+        La cuarta columna toma 1 fr = 20%
+    */
+    /* Ya que las fracciones representan rebanadas (a lo ancho) en porcentajes 
+        Entonces las columnas se ajustan al ancho de la ventana según
+        crezca o disminuya su tamaño (ancho relativo al padre)
+    */
+}

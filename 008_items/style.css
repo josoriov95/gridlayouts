@@ -1,0 +1,31 @@
+.contenedor{
+    border: 4px solid #a99edc;
+    background-color: #c5bcee;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 100px 100px 100px;
+    grid-auto-rows: 100px;
+    height: 600px;
+    place-content: center;
+    /* ITEMS es cada elemento dentro de la grilla por separado*/
+    /* Organiza horizontalmente cada elemento*/ 
+    justify-items: end;
+    /* Organiza verticalmente cada elemento*/ 
+    align-items: end;
+    /* Organiza vertical y horizontalmente cada elemento */
+    place-items: center end;
+}
+
+.item{
+    border: 4px solid mediumspringgreen;
+    font-size: 1.8rem;
+}
+
+.item:nth-child(2){
+    /* Organiza horizontalmente este elemento*/
+    justify-self: center;
+    /* Organiza verticalmente este elemento*/
+    align-self: center;
+    /* Organiza vertical y horizontalemente este elemento */
+    place-self: start center;
+}
